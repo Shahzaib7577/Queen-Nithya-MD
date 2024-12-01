@@ -16,9 +16,9 @@ global.website = 'https://github.com/DileepaTech/Queen-Nithya-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ee0f303f5da6d86d024e0.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'Nithya-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Dileepa' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'DILEEPA' : process.env.PACK_AUTHER.split(";")[0],
+  ownername: process.env.OWNER_NAME === undefined ? 'YOUR-VORTEX' : process.env.OWNER_NAME,
+  sessionName:  process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=6nYQTQ4J#GDx5Mllzr-6ZweJXgRMr-X0EqdbWym2aGsscIiRhW0M' : process.env.SESSION_ID,
+  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'YOUR-VORTEX' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'NITHYA-MD' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
@@ -34,7 +34,7 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? 'haan meri jan me yeahi hoon!!' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
